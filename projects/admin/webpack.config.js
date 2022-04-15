@@ -32,7 +32,7 @@ module.exports = {
         name: "admin",
         filename: "remoteEntry.js",
         exposes: {
-            './Component': './projects/admin/src/app/app.component.ts',
+          './Module': './projects/admin/src/app/remote-entry/entry.module.ts',
         },
 
         // For hosts (please adjust)

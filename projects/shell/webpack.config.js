@@ -39,7 +39,6 @@ module.exports = {
         remotes: {
             "admin": "http://localhost:3000/remoteEntry.js",
             "dashboard": "http://localhost:4000/remoteEntry.js",
-
         },
 
         shared: share({
